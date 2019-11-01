@@ -1,0 +1,120 @@
+.footer {
+  display: flex;
+  background-color: #27273e;
+  color: #ffffff;
+  margin-top: auto;
+}
+
+.footer__container {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 22px 12px 19px;
+}
+
+.author {
+  width: 265px;
+}
+
+.author__link {
+  color: #ffffff;
+  font-family: 'Gotham Pro';
+  line-height: 18px;
+}
+
+.author__link {
+  font-weight: bold;
+  transition-duration: .5s;
+}
+
+.author__link:hover {
+  color: #ec1e79;
+}
+
+.author__link_student {
+  text-decoration: none;
+}
+
+.footer-logo__container {
+  width: 192px;
+}
+
+.social__title {
+  font-size: 14px;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.social__list {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.social__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #d4d4d8;
+  transition-duration: .5s;
+}
+
+.social__item:hover {
+  background-color: #ec1e79;
+}
+
+.social__pic {
+  display: block;
+  width: 21px;
+  height: 21px;
+  position: relative;
+}
+
+.social__pic_vk:after,
+.social__pic_fb:after,
+.social__pic_gplus:after,
+.social__pic_twitter:after,
+.social__pic_mail:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  display: block;
+}
+
+.social__pic_vk:after {
+  width: 12px;
+  height: 7px;
+  background: url('../../img/icons/socials-sprites.png') -10px -68px;
+}
+
+.social__pic_fb:after {
+  width: 6px;
+  height: 13px;
+  background: url('../../img/icons/socials-sprites.png') -111px -10px;
+}
+
+.social__pic_gplus:after {
+  width: 15px;
+  height: 9px;
+  background: url('../../img/icons/socials-sprites.png') -10px -10px;
+}
+
+.social__pic_twitter:after {
+  width: 11px;
+  height: 9px;
+  background: url('../../img/icons/socials-sprites.png') -80px -10px;
+}
+
+.social__pic_mail:after {
+  width: 12px;
+  height: 9px;
+  background: url('../../img/icons/socials-sprites.png') -10px -39px;
+}

@@ -1,0 +1,11 @@
+.banner {
+  height: 367px;
+  margin-bottom: 16px;
+  margin-top: -10px;
+  background-color: #27273e;
+}
+
+.banner__pic {
+  margin: 0 auto;
+  max-width: 100%;
+}

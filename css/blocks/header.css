@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #27273e;
+}
+
+.header__container {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #27273e;
+  padding: 13px 20px 10px;
+  position: relative;
+}
+
+.logo__link {
+  width: 99px;
+}
+
+.contacts {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-end;
+  font-style: normal;
+}
+
+.contacts__table {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__table:hover .contacts__shed {
+  color: #769dcd;
+}
+
+.contacts__table:hover .dropdown {
+  right: 2%;
+  opacity: 1;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 21px;
+  color: #ffffff;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+}
+
+.contacts__shed {
+  color: #ec1e79;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  transition-duration: .5s;
+}
+
+.contacts__shed:hover {
+  color: #769dcd;
+}
+
+.contacts__shed:hover+.dropdown {
+  right: 2%;
+  opacity: 1;
+}
+
+.dropdown {
+  position: absolute;
+  top: 50px;
+  width: 163px;
+  height: 71px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1s;
+  right: 9999px;
+}
+
+.dropdown:before {
+  content: "";
+  display: block;
+  height: 40px;
+  left: 0;
+  right: 0;
+  top: -39px;
+  position: absolute;
+}
+
+.dropdown__mask {
+  position: absolute;
+  top: -22px;
+  left: 125px;
+  width: 50px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.dropdown__mask:after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 16px;
+  right: 27%;
+  background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
+  box-shadow: 5px 0px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.dropdown__text-top {
+  font-size: 14px;
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  padding-left: 13px;
+  padding-bottom: 10px;
+}
+
+.dropdown__text-bottom {
+  font-size: 14px;
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-weight: 300;
+  padding-left: 13px;
+}

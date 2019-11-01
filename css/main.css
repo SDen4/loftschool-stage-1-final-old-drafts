@@ -1,0 +1,20 @@
+
+
+@import url('./layout/fonts.css');
+@import url('./layout/normolize.css');
+@import url('./layout/base.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/side-bar.css');
+@import url('./blocks/breadcrumps.css');
+@import url('./blocks/features.css');
+@import url('./blocks/feedback.css');
+@import url('./blocks/prices.css');
+@import url('./blocks/news.css');
+@import url('./blocks/partners.css');
+@import url('./blocks/banner-discount.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/sendfeedback-form.css');
+@import url('./blocks/footer.css');
+
+@import url('./blocks/banner.css');

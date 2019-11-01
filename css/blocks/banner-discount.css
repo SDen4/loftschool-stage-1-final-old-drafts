@@ -1,0 +1,32 @@
+.banner-discount {
+  padding: 43px 0px 44px;
+  background-color: #27273d;
+  margin-bottom: 57px;
+  /*Добавить фоновую картинку*/
+  background: url('../../img/pattern!.png') #27273d center repeat;
+}
+
+.banner-discoun__container {
+  background-color: #27273d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.banner-discount__text {
+  max-width: 614px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  margin-right: 20px;
+  margin-top: -2px;
+}
+
+.banner-discount__link {
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  text-decoration: none;
+}

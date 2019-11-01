@@ -1,0 +1,133 @@
+.prices {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 6px;
+}
+
+.prices__list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.prices__item {
+  width: 280px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 24px;
+  margin-bottom: 38px;
+}
+
+.prices__item:last-child {
+  margin-right: 0;
+}
+
+.prices__image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 251px;
+  height: 154px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+.prices__image .prices__image-frame {
+  transition-duration: .5s;
+}
+
+.prices__image:hover .prices__image-frame {
+  background-color: rgba(39, 39, 62, 0);
+}
+
+.prices__image_one {
+  background-image: url('../../img/price-one.jpg');
+  background-size: 109%;
+  background-position: 50% 70%;
+}
+
+.prices__image_three {
+  background-image: url('../../img/price-three.jpg');
+}
+
+.prices__image_10-10 {
+  background-image: url('../../img/price-10-10.jpg');
+}
+
+.prices__image_unlim {
+  background-image: url('../../img/price-unlimit-for-one.jpg');
+}
+
+.prices__image_allincl {
+  background-image: url('../../img/price-all-inclusive.jpg');
+}
+
+.prices__image_negot {
+  background-image: url('../../img/price-negotiations.jpg');
+}
+
+.prices__image-frame {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 251px;
+  height: 154px;
+  border-radius: 3px;
+  background-color: rgba(39, 39, 62, .85);
+}
+
+.prices__name,
+.prices__name_vip {
+  font-size: 24px;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  text-align: center;
+}
+
+.prices__name {
+  line-height: 34px;
+  width: 206px;
+  color: #5dd1f8;
+}
+
+.prices__name_vip {
+  color: #ec1e79;
+  padding-bottom: 5px;
+}
+
+.prices__content {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 261px;
+}
+
+.prices__title,
+.prices__text {
+  font-family: "Gotham Pro";
+  text-align: center;
+  line-height: 21px;
+}
+
+.prices__title {
+  width: 205px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  padding-bottom: 11px;
+}
+
+.prices__text {
+  width: 245px;
+}
+
+.prices__text p {
+  margin: 0;
+}

@@ -1,0 +1,156 @@
+.sidebar {
+  align-items: flex-start;
+  width: 17%;
+}
+
+.nav__item {
+  margin: 0px 0px 30px 20px;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  transition-duration: .5s;
+  position: relative;
+}
+.nav__link-title {
+  padding-top: 5px;
+}
+
+.nav__link_icon_main {
+  margin-right: 18px;
+  width: 20px;
+  height: 19px;
+}
+.nav__link_icon_main:after, .nav__link_icon_main:before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: translate(-50%, -50%);
+  content: "";
+  display: block;
+  transition: .5s;
+}
+.nav__link_icon_main:after {
+  width: 20px;
+  height: 19px;
+  background: url('../../img/icons/side-bar-sprites.png') -10px -10px;
+}
+.nav__link_icon_main:before {
+  width: 20px;
+  height: 19px;
+  background: url('../../img/icons/side-bar-sprites.png') -50px -10px;
+  opacity: 0;
+}
+.nav__item_active .nav__link_icon_main:after {
+  background: url('../../img/icons/side-bar-sprites.png') -50px -10px;
+}
+
+.nav__item:hover .nav__link_icon_main:before {
+  opacity: 1;
+}
+
+.nav__item:hover .nav__link_icon_main:after {
+  opacity: 0; 
+}
+
+.nav__link_icon_feedback {
+  margin-right: 18px;
+  width: 20px;
+  height: 18px;
+}
+
+.nav__link_icon_feedback:after, .nav__link_icon_feedback:before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: translate(-50%, -50%);
+  content: "";
+  display: block;
+  transition: .5s;
+}
+
+.nav__link_icon_feedback:after {
+  width: 20px;
+  height: 18px;
+  background: url('../../img/icons/side-bar-sprites.png') -10px -49px;
+}
+
+.nav__link_icon_feedback:before {
+  width: 20px;
+  height: 18px;
+  background: url('../../img/icons/side-bar-sprites.png') -50px -49px;
+  opacity: 0;
+}
+
+.nav__item_active .nav__link_icon_feedback:after {
+  background: url('../../img/icons/side-bar-sprites.png') -50px -49px;
+}
+
+.nav__item:hover .nav__link_icon_feedback:before {
+  opacity: 1;
+}
+
+.nav__item:hover .nav__link_icon_feedback:after {
+  opacity: 0; 
+}
+
+.nav__link_icon_prices {
+  margin-right: 18px;
+  width: 18px;
+  height: 15px;
+}
+
+.nav__link_icon_prices:after, .nav__link_icon_prices:before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: translate(-50%, -50%);
+  content: "";
+  display: block;
+  transition: .5s;
+}
+
+.nav__link_icon_prices:after {
+  width: 18px;
+  height: 15px;
+  background: url('../../img/icons/side-bar-sprites.png') -10px -87px;
+}
+
+.nav__link_icon_prices:before {
+  width: 18px;
+  height: 15px;
+  background: url('../../img/icons/side-bar-sprites.png') -48px -87px;
+  opacity: 0;
+}
+
+.nav__item_active .nav__link_icon_prices:after {
+  background: url('../../img/icons/side-bar-sprites.png') -48px -87px;
+}
+
+.nav__item:hover .nav__link_icon_prices:before {
+  opacity: 1;
+}
+
+.nav__item:hover .nav__link_icon_prices:after {
+  opacity: 0; 
+}
+
+.nav__link:hover {
+  color: #221f1f;
+}
+
+.nav__item_active .nav__link {
+  color: #000000;
+}
+
+.nav__item_active {
+  text-decoration: underline;
+}
