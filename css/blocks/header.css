@@ -45,6 +45,7 @@
   color: #ffffff;
   font-family: 'Gotham Pro';
   font-weight: bold;
+  transition-duration: .5s;
 }
 
 .contacts__shed {
@@ -54,7 +55,8 @@
   transition-duration: .5s;
 }
 
-.contacts__shed:hover {
+.contacts__shed:hover,
+.contacts__phone:hover {
   color: #769dcd;
 }
 
