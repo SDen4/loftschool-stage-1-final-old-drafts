@@ -29,4 +29,9 @@
   font-family: "Gotham Pro";
   font-weight: bold;
   text-decoration: none;
+  transition-duration: .5s;
+}
+
+.banner-discount__link:hover {
+  color: #769dcd;
 }

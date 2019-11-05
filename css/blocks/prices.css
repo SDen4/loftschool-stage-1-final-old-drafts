@@ -44,6 +44,10 @@
   background-color: rgba(39, 39, 62, 0);
 }
 
+.prices__image:hover .prices__name {
+  color: #ec1e79;
+}
+
 .prices__image_one {
   background-image: url('../../img/price-one.jpg');
   background-size: 109%;
@@ -87,6 +91,7 @@
   font-family: "Gotham Pro";
   font-weight: bold;
   text-align: center;
+  transition-duration: .5s;
 }
 
 .prices__name {
